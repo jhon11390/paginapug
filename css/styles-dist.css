@@ -1,41 +1,32 @@
 .logo {
+    display: block;
     width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-header {
-    display: -webkit-flex;
-    display: flex;
-    width: 100%;
+footer {
+    background: #333;
+    color: #ddd;
+    padding: 1em;
+    margin-top: 3em;
+    text-align: center;
 }
 
-.menu ul {
-    display: -webkit-flex;
-    display: flex;
-    margin: 0 0 0 auto;
-    list-style: none;
+footer a {
+    color: #fff;
 }
- .menu {
-     margin-left: auto;
- }
 
- .menu li {
-     margin: 0.5em;
- }
+.siguenos a {
+    float: right;
+    margin: 1em;
+}
 
- footer {
-     background: #333;
-     color: #ddd;
-     padding: 1em;
-     margin-top: 3em;
-     text-align: center;
- }
+.iconos {
+    width: 2em;
+    margin-left: 8px;
+}
 
- footer a {
-     color: #fff;
- }
-
- .siguenos a {
-     display: inline-block;
-     margin: 0 .5em;
-     font-size: .9em;
- }
+.poster {
+    width: 100%
+}
